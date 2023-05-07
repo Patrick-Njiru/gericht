@@ -1,1 +1,1 @@
-<h1> GeRICTH </h1>
+<h1> GERICTH </h1>
