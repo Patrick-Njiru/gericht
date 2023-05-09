@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { MdOutlineRestaurant } from 'react-icons/md'
 
-import images from '../../constants/images'
+import { images } from '../../constants'
 import './navbar.css'
 
 const Navbar = () => {
