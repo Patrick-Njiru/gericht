@@ -9,10 +9,10 @@
 }
 .navbar__logo {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
+    width: 150px;
 }
-.navbar__logo img { width: 150px; }
 .navbar__links {
     flex: 1;
     display: flex;

@@ -1,24 +1,24 @@
-.section__padding {	padding: 4rem 6rem; }
-.flex__center {
+.section-padding { padding: 4rem 6rem; }
+.flex-center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.app__bg {
+.bg {
 	background: url('./assets/bg.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: repeat;
 	background-attachment: fixed;
 }
-.app__wrapper {
+.wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
 	min-height: 100vh;
 }
-.app__wrapper_info {
+.wrapper__info {
 	flex: 1;
 	width: 100%;
 	display: flex;
@@ -26,7 +26,7 @@
 	align-items: flex-start;
 	flex-direction: column;
 }
-.app__wrapper_img {
+.wrapper__img {
 	flex: 1;
 	width: 100%;
 	display: flex;
@@ -35,12 +35,12 @@
 
 	margin-left: 2rem;
 }
-.app__wrapper_img-reverse {
+.wrapper__img-reverse {
 	justify-content: flex-start;
 	margin-right: 2rem;
 }
-.app__wrapper_img img { width: 80%; }
-.custom__button {
+.wrapper__img img { width: 80%; }
+.custom-button {
 	background-color: var(--color-crimson);
 	color: var(--color-black);
 	font-family: var(--font-base);
@@ -73,7 +73,7 @@
 	line-height: 28px;
 	font-size: 16px;
 }
-.headtext__cormorant {
+.head-text__cormorant {
 	font-family: var(--font-base);
 	color: var(--color-golden);
 	font-size: 64px;
@@ -85,7 +85,7 @@
 
 
 @media screen and (min-width: 2000px) {
-	.custom__button, .p__cormorant {
+	.custom-button, .p__cormorant {
 		font-size: 37px;
 		line-height: 67px;
 	}
@@ -93,7 +93,7 @@
 		font-size: 30px;
 		line-height: 50px;
 	}
-	.headtext__cormorant {
+	.head-text__cormorant {
 		font-size: 150px;
 		line-height: 210px;
 	}
@@ -101,16 +101,16 @@
 }
 
 @media screen and (max-width: 1150px) {
-	.app__wrapper { flex-direction: column;	}
-	.app__wrapper_img {	margin: 5rem 0 0 0;	}
-	.app__wrapper_img-reverse {	margin: 0 0 5rem 0;	}
-	.app__wrapper_img img {	width: 100%; }
+	.wrapper { flex-direction: column; }
+	.wrapper__img {	margin: 5rem 0 0 0; }
+	.wrapper__img-reverse {	margin: 0 0 5rem 0;	}
+	.wrapper__img img {	width: 100%; }
 }
 
-@media screen and (max-width: 850px) { .section__padding { padding: 4rem; } }
+@media screen and (max-width: 850px) { .section-padding { padding: 4rem; } }
 
 @media screen and (max-width: 650px) {
-	.section__padding {	padding: 4rem 2rem;	}
+	.section-padding {	padding: 4rem 2rem;	}
 	.p__cormorant {	font-size: 21px; }
 	.p__opensans { font-size: 14px;	}
 }
@@ -118,7 +118,7 @@
 @media screen and (max-width: 450px) {
 	.p__opensans { font-size: 12px;	}
 	.p__cormorant {	font-size: 19px; }
-	.headtext__cormorant {
+	.head-text__cormorant {
 		font-size: 45px;
 		line-height: 70px;
 	}

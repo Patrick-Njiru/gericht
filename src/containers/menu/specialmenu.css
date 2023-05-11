@@ -30,9 +30,6 @@
 .special-menu__img {
     width: 410px;
     margin: 0 2rem;
-}
-.special-menu__img img {
-    width: 100%;
     height: auto;
 }
 .special-menu__items {
@@ -42,12 +39,11 @@
     margin: 2rem 0;
     width: 100%;
 }
-
-
-@media screen and (max-width: 2000px) {
-    .special-menu__img { width: 650px; }
-    .special-menu__img img { height: 920px; }
+.special-menu button {
+   margin-top: '15px'
 }
+
+
 @media screen and (max-width: 1150px) {
    .special-menu__menu { 
     flex-direction: column;

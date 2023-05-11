@@ -1,9 +1,6 @@
 about-us { position: relative; }
 .about-us__overlay {
     position: absolute;
-    /* inset: 0; */
-}
-.about-us__overlay img {
     width: 391px;
     height: 415px;
     z-index: 0;
@@ -21,8 +18,10 @@ about-us { position: relative; }
 
     text-align: right;
 }
-.about-us__knife { margin: 2rem 4rem; }
-.about-us__knife img { height:910px; }
+.about-us__knife { 
+    margin: 2rem 4rem;
+    height:910px;
+ }
 .about-us__history {
     flex: 1;
     display: flex;
@@ -48,7 +47,7 @@ about-us { position: relative; }
     .about-us__knife { margin: 4rem 0; }
 }
 @media screen and (max-width: 650px) {
-    .about-us__overlay img {
+    .about-us__overlay {
         width: 80%;
         height: 320px;
     }
