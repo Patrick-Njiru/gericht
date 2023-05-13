@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
-
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs'
+
 import { meal } from '../../constants'
 import './intro.css'
 
@@ -11,7 +11,6 @@ const Intro = () => {
 	const handleVideo = () => {
 		// set to false if it was true and vice versa
 		setPlayVideo(prevPlayVideo => !prevPlayVideo)
-
 		playVideo ? vidRef.current.pause() : vidRef.current.play()
 	}
 

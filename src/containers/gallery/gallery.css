@@ -1,0 +1,108 @@
+.gallery {
+    display: flex;
+
+    background: var(--color-black);
+    padding: 4rem 0 4rem 6rem;
+}
+.gallery__content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    min-width: 500px;
+    padding-right: 2rem;
+}
+.gallery__content button { margin-top: 1rem; }
+.gallery__images {
+    flex: 1;
+    display: flex;
+
+    max-width: 50%;
+
+    position: relative;
+}
+.gallery__images-container {
+    display: flex;
+
+    width: max-content;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.gallery__images-container::-webkit-scrollbar { display: none; }
+.gallery__images-card {
+    position: relative;
+    min-width: 301px;
+    height: 447px;
+    margin-right: 2rem;
+}
+.gallery__image-icon {
+    position: absolute;
+
+    color: #fff;
+    font-size: 2rem;
+
+    opacity: 0.5;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.gallery__images-card img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.gallery__images-card:hover img { opacity: 0.35; }
+.gallery__images-card:hover .gallery__image-icon { opacity: 1; }
+.gallery__images-arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 1rem;
+
+    position: absolute;
+    bottom: 5%;
+}
+.gallery__arrow-icon {
+    color: var(--color-golden);
+    font-size: 2rem;
+    background: var(--color-black);
+
+    cursor: pointer;
+    border-radius: 5px;
+}
+.gallery__arrow-icon:hover { color: var(--color-white); }
+
+
+@media screen and (min-width:2000px) {
+    .gallery__content { 
+        min-width: 100px;
+        padding-right: 4rem;
+     }
+     .gallery__images-card { 
+        min-width: 400px;
+        height: 550px;
+     }
+}
+@media screen and (max-width:1150px) {
+    .gallery { flex-direction: column; }
+    .gallery__images { 
+        max-width: 100%;
+        margin: 5rem 0; 
+    }
+}
+@media screen and (max-width:850px) { .gallery { padding: 4rem 0 4rem 4rem; } }
+@media screen and (max-width:650px) {
+    .gallery { padding: 4rem 0 4rem 2rem; }
+    .gallery__content { min-width: 100%; }
+    .gallery__images-card { 
+        min-width: 240px;
+        height: 320px;
+    }
+}
