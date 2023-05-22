@@ -1,7 +1,7 @@
 <h1> GERICTH </h1>
 <h2> Description </h2>
 <p>
-    This website summarises everything about hotel Gericht. It shows potential customers everything about Gericht from what foods and drinks they offer, their history, chef, awards, opening hours, to providing contact details for interested individuals. This a front end website and is mobile responsive. I learned a lot while creatng this project like how to use the BEM CSS naming convention and the useRef React Hook. 
+    This website summarises everything about hotel Gericht. It shows potential customers everything about Gericht from what foods and drinks they offer, their history, chef, awards, opening hours, to providing contact details for interested individuals. This a front end website and is mobile responsive. I learned a lot while creatng this project including the BEM CSS naming convention and the useRef React Hook. 
 </p>
 <br><br>
 <h2 align='center'> View on Large Screens </h2>
