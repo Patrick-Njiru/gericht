@@ -10,7 +10,7 @@
     <img src="https://i.ibb.co/vmpcdQD/Screenshot-from-2023-05-25-12-08-01.png" border="0">
     <img src="https://i.ibb.co/vhhpC2B/Screenshot-from-2023-05-22-15-17-13.png" border="0">
     <img src="https://i.ibb.co/bPP5nrs/Screenshot-from-2023-05-25-12-11-06.png" border="0">
-    <img src="https://i.ibb.co/Sy7Xwnm/Screenshot-from-2023-05-25-12-20-54.png" border="0">
+<!--     <img src="https://i.ibb.co/Sy7Xwnm/Screenshot-from-2023-05-25-12-20-54.png" border="0"> -->
     <img src="https://i.ibb.co/dQsZ34D/Screenshot-from-2023-05-25-12-13-45.png" border="0">
     <img src="https://i.ibb.co/DrwL3S9/Screenshot-from-2023-05-25-12-13-50.png" border="0">
 </div>
