@@ -3,6 +3,7 @@
 <p>
     This website summarises everything about hotel Gericht. It shows potential customers everything about Gericht from what foods and drinks they offer, their history, chef, awards, opening hours, to providing contact details for interested individuals. This a front end website and is mobile responsive. I learned a lot while creatng this project including the BEM CSS naming convention and the useRef React Hook. 
 </p>
+<br><br>
 <div>
     <img src="https://i.ibb.co/pZnkJj7/Screenshot-from-2023-05-25-12-02-22.png" border="0">    
     <img src="https://i.ibb.co/kGxbGBm/Screenshot-from-2023-05-25-12-05-59.png" border="0">
