@@ -18,7 +18,7 @@
 <br><br>
 ## Technologies
 
-1. JavaScript (React Framework)
+1. JavaScript (React)
 2. HTML
 3. CSS
 
