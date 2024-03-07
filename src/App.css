@@ -1,11 +1,13 @@
-.section-padding { padding: 4rem 6rem; }
+.section-padding {
+	padding: 4rem 6rem;
+}
 .flex-center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .bg {
-	background: url('./assets/bg.png');
+	background: url("./assets/bg.webp");
 	background-position: center;
 	background-size: cover;
 	background-repeat: repeat;
@@ -39,7 +41,9 @@
 	justify-content: flex-start;
 	margin-right: 2rem;
 }
-.wrapper__img img { width: 80%; }
+.wrapper__img img {
+	width: 80%;
+}
 .custom-button {
 	background-color: var(--color-crimson);
 	color: var(--color-black);
@@ -60,7 +64,7 @@
 	font-weight: 700;
 	letter-spacing: 0.04em;
 	text-transform: capitalize;
-	font-feature-settings: 'tnum' on, 'lnum' on;
+	font-feature-settings: "tnum" on, "lnum" on;
 	line-height: 29.9px;
 	font-size: 23px;
 }
@@ -81,11 +85,13 @@
 	letter-spacing: 0.04em;
 	text-transform: capitalize;
 }
-.spoon__img { width: 45px; }
-
+.spoon__img {
+	width: 45px;
+}
 
 @media screen and (min-width: 2000px) {
-	.custom-button, .p__cormorant {
+	.custom-button,
+	.p__cormorant {
 		font-size: 37px;
 		line-height: 67px;
 	}
@@ -97,27 +103,51 @@
 		font-size: 150px;
 		line-height: 210px;
 	}
-	.spoon__img { width: 80px; }
+	.spoon__img {
+		width: 80px;
+	}
 }
 
 @media screen and (max-width: 1150px) {
-	.wrapper { flex-direction: column; }
-	.wrapper__img {	margin: 5rem 0 0 0; }
-	.wrapper__img-reverse {	margin: 0 0 5rem 0;	}
-	.wrapper__img img {	width: 100%; }
+	.wrapper {
+		flex-direction: column;
+	}
+	.wrapper__img {
+		margin: 5rem 0 0 0;
+	}
+	.wrapper__img-reverse {
+		margin: 0 0 5rem 0;
+	}
+	.wrapper__img img {
+		width: 100%;
+	}
 }
 
-@media screen and (max-width: 850px) { .section-padding { padding: 4rem; } }
+@media screen and (max-width: 850px) {
+	.section-padding {
+		padding: 4rem;
+	}
+}
 
 @media screen and (max-width: 650px) {
-	.section-padding {	padding: 4rem 2rem;	}
-	.p__cormorant {	font-size: 21px; }
-	.p__opensans { font-size: 14px;	}
+	.section-padding {
+		padding: 4rem 2rem;
+	}
+	.p__cormorant {
+		font-size: 21px;
+	}
+	.p__opensans {
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 450px) {
-	.p__opensans { font-size: 12px;	}
-	.p__cormorant {	font-size: 19px; }
+	.p__opensans {
+		font-size: 12px;
+	}
+	.p__cormorant {
+		font-size: 19px;
+	}
 	.head-text__cormorant {
 		font-size: 45px;
 		line-height: 70px;
