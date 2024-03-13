@@ -1,7 +1,7 @@
 <h1> GERICHT </h1>
 <h2> Description </h2>
 <p>
-    This website is the landing page for a fictitious hotel called Gericht. It shows potential customers everything about Gericht from what foods and drinks they offer, their history, chef, awards, opening hours, to providing contact details for interested individuals. It is mobile responsive.
+   A landing page for a hotel showcasing their best features from delicacies and laurels to their social media engagements. It is mobile responsive
 </p>
 <br><br>
 <div>
