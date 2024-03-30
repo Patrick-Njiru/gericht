@@ -5,16 +5,16 @@
 </p>
 <br><br>
 <div>
-    <img src="https://i.ibb.co/pZnkJj7/Screenshot-from-2023-05-25-12-02-22.png" border="0">    
-    <img src="https://i.ibb.co/kGxbGBm/Screenshot-from-2023-05-25-12-05-59.png" border="0">
-    <img src="https://i.ibb.co/WcdgVtq/Screenshot-from-2023-05-22-11-08-49.png" border="0">
-    <img src="https://i.ibb.co/vmpcdQD/Screenshot-from-2023-05-25-12-08-01.png" border="0">
-    <img src="https://i.ibb.co/vhhpC2B/Screenshot-from-2023-05-22-15-17-13.png" border="0">
-    <img src="https://i.ibb.co/bPP5nrs/Screenshot-from-2023-05-25-12-11-06.png" border="0">
-    <img src="https://i.ibb.co/dQsZ34D/Screenshot-from-2023-05-25-12-13-45.png" border="0">
-    <img src="https://i.ibb.co/DrwL3S9/Screenshot-from-2023-05-25-12-13-50.png" border="0">
 </div>
-
+    <img src="./public/screenshots/1.webp" border="0">    
+    <img src="./public/screenshots/2.webp" border="0">    
+    <img src="./public/screenshots/3.webp" border="0">    
+    <img src="./public/screenshots/4.webp" border="0">    
+    <img src="./public/screenshots/5.webp" border="0">    
+    <img src="./public/screenshots/6.webp" border="0">    
+    <img src="./public/screenshots/7.webp" border="0">    
+    <img src="./public/screenshots/8.webp" border="0">    
+    <img src="./public/screenshots/9.webp" border="0">    
 <br><br>
 ## Technologies
 
